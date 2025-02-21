@@ -5,13 +5,20 @@
     font-style: normal;
   } */
 
+* {
+    box-sizing: border-box;
+}
+
   .screen {
     width: 100%;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     align-items: center;
-    background-color: #F2F1F0; 
+    background-color: #F2F1F0;
+    padding-left: 5rem;
+    padding-right: 5rem;
 }
 
 .header {
@@ -125,7 +132,7 @@ p {
 }
 
 .container-about {
-    padding: 200px;
+    padding: 100px;
     margin: 100px;
     height: 500px;
     width: 100%;
@@ -134,6 +141,7 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
+    border: solid red;
 }
 
 .container__text {
